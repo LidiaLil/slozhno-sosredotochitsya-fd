@@ -121,7 +121,7 @@
 }
 
 .header__title {
-  color: var(--main-bg-color);
+  color: var(--color-title-decor);
   font-size: var(--main-font-size, 18px);
   font-weight: 700;
   align-self: center;
@@ -215,13 +215,13 @@
 }
 
 .article__title {
-  color: var(--main-bg-color);
+  color: var(--color-title-decor);
   font-size: var(--main-font-size, 18px);
   font-weight: 700;
 }
 
 .article-item-title {
-  color: var(--main-bg-color);
+  color: var(--color-title-decor);
   font-size: var(--main-font-size, 18px);
   font-weight: 400;
   background-color: var(--accent-color, #ff0070);

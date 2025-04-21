@@ -6,6 +6,7 @@
   --accent-color: #ff0070; /*цвет тени и фон в title-decor*/
   --button-color: #ff0070; /*цвет акцентов(день, ночь, углы)*/
   --main-bg-color: #000028; /* цвет фона и текста в title-decor*/
+  --color-title-decor: #000028; /* цвет текста в title-decor*/
   --bg-image: url(../images/cover-image-dark.png); /* фоновая картинка (в темной теме)*/
   --main-text-color: #f1b2ce; /* основной цвет текста*/
   --main-title-color: #ff0070; /*цвет section__title*/

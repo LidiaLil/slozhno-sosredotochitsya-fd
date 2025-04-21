@@ -35,7 +35,8 @@
   :root {
     --accent-color: #ff8dcb; /*цвет тени и фон в title-decor*/
     --button-color: #353430; /*цвет акцентов(день, ночь, углы)*/
-    --main-bg-color: #353430; /* цвет фона и текста в title-decor*/
+    --main-bg-color: #fff1f7; /* цвет фона*/
+    --color-title-decor: #353430; /* цвет текста в title-decor*/
     --bg-image: url(../images/cover-image-light.png); /* фоновая картинка (в светлой теме)*/
     --main-text-color: #353430; /* основной цвет текста*/
     --main-font-family: 'IBM Plex Mono'; /* основний шрифт*/
