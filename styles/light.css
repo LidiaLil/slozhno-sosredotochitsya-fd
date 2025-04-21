@@ -9,8 +9,43 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --accent-color: #ff8dcb; /*цвет тени и фон в title-decor*/
+  --button-color: #353430; /*цвет акцентов(день, ночь, углы)*/
+  --main-bg-color: #353430; /* цвет фона и текста в title-decor*/
+  --bg-image: url(../images/cover-image-light.png); /* фоновая картинка (в светлой теме)*/
+  --main-text-color: #353430; /* основной цвет текста*/
+  --main-title-color: #353430; /*цвет section__title*/
+  --main-font-family: 'IBM Plex Mono'; /* основний шрифт*/
+  --main-font-size: 18px; /*основной размер шрифта*/
+  --decor-padding: 10px; /*падинги  для данной версии (мобильной)*/
+  --logo-color: #ffc2e6; /*цвет лого*/
+  --font-size-logo: clamp(
+    7.25rem,
+    7.0115rem + 1.0178vw,
+    7.5rem
+  ); /*резиновый размер лого для данной версии (мобильной)*/
 }
 
-.theme-light .page {
+.theme-light .rec /*header-rec*/ {
+  display: none;
   /* Вам также нужно будет написать ряд подобных селекторов */
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #ff8dcb; /*цвет тени и фон в title-decor*/
+    --button-color: #353430; /*цвет акцентов(день, ночь, углы)*/
+    --main-bg-color: #353430; /* цвет фона и текста в title-decor*/
+    --bg-image: url(../images/cover-image-light.png); /* фоновая картинка (в светлой теме)*/
+    --main-text-color: #353430; /* основной цвет текста*/
+    --main-font-family: 'IBM Plex Mono'; /* основний шрифт*/
+    --main-font-size: 18px; /*основной размер шрифта*/
+    --decor-padding: 10px; /*падинги  для данной версии (мобильной)*/
+    --logo-color: #ffc2e6; /*цвет лого*/
+    --font-size-logo: clamp(
+      7.25rem,
+      7.0115rem + 1.0178vw,
+      7.5rem
+    ); /*резиновый размер лого для данной версии (мобильной)*/
+  }
 }
