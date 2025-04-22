@@ -16,23 +16,9 @@
   --bg-image: url(../images/cover-image-dark.png); /* фоновая картинка (в темной теме)*/
   --main-text-color: #f1b2ce; /* основной цвет текста*/
   --main-title-color: #ff0070; /*цвет section__title*/
-  --main-font-family: 'IBM Plex Mono'; /* основний шрифт*/
-  --main-font-size: 18px; /*основной размер шрифта*/
-  --decor-padding-mobile: 10px; /*падинги  для данной версии (мобильной)*/
-  --decor-padding-desktop: 20px; /*падинги  для планшета и десктопа*/
   --logo-color: #db00ff; /*цвет лого*/
-  --font-size-logo-mobile: clamp(
-    7.25rem,
-    7.0115rem + 1.0178vw,
-    7.5rem
-  ); /*резиновый размер лого для данной версии (мобильной)*/
-  --font-size-logo-desktop: clamp(
-    7.5rem,
-    0.5625rem + 14.4531vw,
-    9.8125rem
-  ); /* лого для планшета и десктопа*/
+  --hover-color: #ff007066; /*цвет при наведении*/
 }
-
 
 .theme-dark .rec {
   /* Вам также нужно будет написать ряд подобных селекторов */

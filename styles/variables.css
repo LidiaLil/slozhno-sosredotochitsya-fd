@@ -15,6 +15,7 @@
   --decor-padding-mobile: 10px; /*падинги  для данной версии (мобильной)*/
   --decor-padding-desktop: 20px; /*падинги  для планшета и десктопа*/
   --logo-color: #db00ff; /*цвет лого*/
+  --hover-color: #ff007066; /*цвет при наведении*/
   --font-size-logo-mobile: clamp(
     7.25rem,
     7.0115rem + 1.0178vw,
